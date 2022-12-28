@@ -17,6 +17,7 @@ const About = () => {
                     <p className="about__description">
                         Frontend Developer, I create web pages with UI / UX interface, I am kind of new to web universe but i want my clients to be happy with the projects carried out alongside me.
                     </p>
+                    <div className="cv__btn">
                     <a download="" href={CV} className="button button--flex">
                         Download CV
                         <svg
@@ -45,6 +46,7 @@ const About = () => {
                             ></path>
                         </svg>
                     </a>
+                    </div>
                 </div>
             </div>
         </section>
